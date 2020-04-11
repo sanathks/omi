@@ -1,0 +1,27 @@
+img.card {
+  width: 70px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: initial;
+  box-sizing: initial;
+}
+
+.hand {
+  padding: 0;
+  margin: 0;
+}
+.active-hand img.card {
+  cursor: pointer;
+}
+
+.fan {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding-bottom: 1em;
+}
+.fan img.card {
+  position: absolute;
+  width: 90px;
+}
